@@ -1,0 +1,16 @@
+  121  pip list
+  122  pip install requests
+  123  pip list
+  124  deactivate
+  125  which python3
+  126  man ls
+  127  history
+  128  python3
+  129  history > week02/lab01-log.txt
+  130  history | wc -l
+  131  history | head -113
+  132  history | head -113 > /tmp/early-history.txt
+  133  cat /tmp/early-history.txt
+  134  echo $PATH
+  135  cd ~/coding-cafe
+  136  pwd
