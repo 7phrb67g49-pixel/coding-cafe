@@ -1,5 +1,20 @@
 # Lab 4 Questions
 
+# Coding Café
+
+Lab work for Coding Café, FM102.
+
+**Name:** Jay Mangukiya
+
+**Roll number:** U20260107
+
+## Contents
+
+- `lab1/` — terminal
+- `lab2/` — variables, types, operations, I/O
+- `lab3/` — conditionals and loops
+- `lab4/` — Git and GitHub
+
 ## Question 1
 `--global` means that the Git configuration is saved for my user account and applies to all Git repositories on this computer. If I leave it out, the configuration is normally applied only to the current repository.
 
@@ -23,4 +38,22 @@ After the commit, Git printed that 6 files had changed and reported 2567 inserti
 
 ## Question 8
 The first seven characters of a commit hash are an abbreviated commit ID. They provide a shorter way to identify a specific commit without having to type the entire hash.
+
+## Question 9
+The four-step Git loop is edit, stage, commit, and repeat. I first make changes to the files, use `git add` to stage those changes, use `git commit` to save them in the repository history, and then repeat the process for future changes.
+
+## Question 10
+`README.md` gets a special name because GitHub automatically recognizes it and displays it prominently on the repository's front page. It acts as the introduction or guide to the repository, so it is placed at the root of the project where GitHub can easily find it.
+
+## Question 11
+`gh auth login` authenticated my GitHub account through GitHub CLI and stored the authentication credentials securely. Because Git can use that authentication when communicating with GitHub, I do not have to enter my GitHub password every time I push.
+
+## Question 12
+The GitHub repository front page shows the contents of `README.md` as formatted text. GitHub does this because `README.md` is automatically recognized as the repository's main introductory documentation.
+
+## Question 13
+No, `git push` did not change my local history. It copied my existing local commits to GitHub, while the commits and their hashes remained the same locally.
+
+## Question 14
+A private repository exists on GitHub but its contents are restricted to the owner and people who have been given access. A repository that does not exist on GitHub has no online repository at all, so there is nothing for others to access or collaborate on.
 
